@@ -3,3 +3,36 @@
 	margin: 0;
 	padding: 0;
 }
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.box-container {
+	max-width: 300px;
+	line-height: 1.5;
+}
+.box-container p {
+	margin: 20px 0;
+}
+.author {
+	font-style: italic;
+	font-size: 10px;
+}
+
+button {
+	padding: 10px;
+	background-color: inherit;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+button:hover {
+	background-color: green;
+	border-radius: 0;
+}
